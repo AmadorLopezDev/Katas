@@ -1,9 +1,9 @@
 ﻿using System.Text.RegularExpressions;
 
 namespace KatasBolos {
-    public class BoulingScore {
-        public int Score(string game) {
-            var frames = game.Split('|');
+    public class BoulingGame {
+        public int Score(string plays) {
+            var frames = plays.Split('|');
             ValidateFrames(frames);
 
             if (frames.All(frame => frame == "X" || frame == "XX"))

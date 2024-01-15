@@ -3,11 +3,11 @@ using KatasBolos;
 namespace KataBolosTest {
     public class BoulingScoreShould {
 
-        private BoulingScore boulingScore;
+        private BoulingGame boulingScore;
 
         [SetUp]
         public void Setup() {
-            boulingScore = new BoulingScore();
+            boulingScore = new BoulingGame();
         }
 
         [Test]
